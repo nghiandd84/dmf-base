@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "dist/",
+      "jsx": "react",
+      "esModuleInterop": true,
+      "removeComments": true,
+      "resolveJsonModule": true,
+      "experimentalDecorators": true
+    },
+  
+    "include": ["./src/**/*", "./dmf-type"],
+    "exclude": ["./dmf-type/dmf_base.d.ts"]
+  }
+  

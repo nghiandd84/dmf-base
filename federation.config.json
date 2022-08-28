@@ -1,0 +1,8 @@
+{
+  "name": "dmf_base",
+  "exposes": {
+    "./services": "./src/services/index",
+    "./models": "./src/models/index",
+    "./helper": "./src/helper/index"
+  }
+}
